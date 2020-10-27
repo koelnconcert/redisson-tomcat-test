@@ -1,0 +1,8 @@
+<Context>
+  <Manager className="org.redisson.tomcat.RedissonSessionManager"
+           configPath="redisson.conf"
+           readMode="REDIS"
+           updateMode="AFTER_REQUEST"
+           broadcastSessionEvents="false"
+           keyPrefix=""/>
+</Context>
